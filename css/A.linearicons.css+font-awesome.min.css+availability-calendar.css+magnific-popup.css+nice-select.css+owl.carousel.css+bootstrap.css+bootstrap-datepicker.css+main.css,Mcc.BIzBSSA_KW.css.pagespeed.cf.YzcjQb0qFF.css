@@ -4777,6 +4777,18 @@ h6 {
     .home-banner-area .owl-carousel.owl-loaded {
         display: none
     }
+    .home-banner-area{
+        background-image: url(/img/xabout-img.jpg.pagespeed.ic.4Im0Afh-TO22.jpg);
+        color: white;
+        backgrou
+    }
+    .text-wrapper h1{
+        color: white !important;
+    }
+    .text-wrapper {
+        color: rgba(255, 255, 255, 0.753) !important;
+    }
+
 }
 
 .home-banner-area .text-wrapper {
