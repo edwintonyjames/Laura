@@ -540,6 +540,13 @@ img.mfp-img {
     touch-action: manipulation;
     -moz-backface-visibility: hidden
 }
+.bott-area{
+  position: relative;
+background-size: cover;
+z-index: 1;
+max-height: 535px;
+margin-bottom: 200px;
+}
 
 .owl-carousel .owl-stage:after {
     content: ".";
