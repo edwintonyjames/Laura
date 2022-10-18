@@ -5443,6 +5443,7 @@ box-sizing: border-box;
     margin-bottom: 5px
 }
 .bott-txt h1{
+    padding-top: 60px;
     position: relative;
     color: white;
     max-width: 735px;
