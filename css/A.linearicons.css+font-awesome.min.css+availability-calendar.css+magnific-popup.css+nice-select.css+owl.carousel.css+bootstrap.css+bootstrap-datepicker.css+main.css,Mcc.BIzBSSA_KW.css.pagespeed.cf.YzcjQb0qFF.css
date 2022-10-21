@@ -3047,6 +3047,11 @@ h6 {
     margin-top: 0;
     font-weight: 700
 }
+.prclst{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
 
 .h1,
 .h2,
@@ -3091,6 +3096,9 @@ th {
 .mt-40 {
     margin-top: 40px
 }
+.mt-50{
+    margin-top: 60px;
+}
 
 .mb-10 {
     margin-bottom: 10px
@@ -3103,7 +3111,14 @@ th {
 .mb-30 {
     margin-bottom: 30px
 }
-
+.prclstect{
+    color: rgba(169, 169, 169, 0.512);
+    padding-top: 100px;
+    font-size: 11px;
+}
+.spcl{
+    border: 2px solid #bb9236;
+}
 .pt-90 {
     padding-top: 90px
 }
@@ -3113,7 +3128,8 @@ th {
 }
 
 .text-white {
-    color: #fff
+    color: #fff;
+    font-weight: lighter;
 }
 
 .transition {
@@ -3197,6 +3213,9 @@ th {
 
 .section-title {
     padding-bottom: 80px
+}
+.top-sec{
+    border-bottom: 1px dashed #bb9236;
 }
 
 @media (max-width:991px) {
@@ -5598,13 +5617,17 @@ line-height: 30px;
     }
 }
 
+.roundc{
+    padding-top: 50px;
+}
+
 .single-price {
     background: #f9f9f9;
     padding: 40px 30px;
     -webkit-transition: all .4s ease 0s;
     -moz-transition: all .4s ease 0s;
     -o-transition: all .4s ease 0s;
-    transition: all .4s ease 0s
+    transition: all .4s ease 0s;
 }
 
 .single-price .top-sec h4 {
