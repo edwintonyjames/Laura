@@ -5811,6 +5811,7 @@ line-height: 30px;
 
 .brnchimg{
     padding-bottom: 20px;
+    width: 100% !important;
 }
 
 .single-blog:hover .blog-title {
