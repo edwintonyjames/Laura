@@ -1015,6 +1015,9 @@ ul {
     margin-top: 0;
     margin-bottom: 1rem
 }
+.header-top{
+    max-height: 80px !important;
+}
 
 ol ol,
 ol ul,
@@ -1302,19 +1305,19 @@ a>code {
 
 @media (min-width:768px) {
     .container {
-        max-width: 720px
+        max-width: 760px
     }
 }
 
 @media (min-width:992px) {
     .container {
-        max-width: 960px
+        max-width: 990px
     }
 }
 
 @media (min-width:1200px) {
     .container {
-        max-width: 1140px
+        max-width: 1300px
     }
 }
 
@@ -4389,6 +4392,27 @@ box-sizing: border-box;
   border-color: black;
   color: black !important;
 }
+.header-cont{
+    width: 100% !important;
+    box-sizing: border-box;
+}
+.cust-btn1i{
+    border-radius: 0px !important;
+background: rgba(0, 0, 0, 0);
+color: black !important;
+border: solid !important;
+box-sizing: border-box !important;
+border-width: 1px !important;
+font-size: 15px;
+box-sizing: border-box;
+box-shadow: none;
+}
+.cust-btn1i:hover{
+  background: rgb(255, 255, 255) !important;
+  border-width: 1px !important;
+  border-color: black;
+  color: black !important;
+}
   
   .cust-btn:hover{
     background: rgb(255, 255, 255) !important;
@@ -4593,31 +4617,31 @@ box-sizing: border-box;
 }
 
 .logo {
-    text-align: center;
     padding: 15px 0;
     margin-right: 35px
 }
 
 .logo img {
-    width: 50%
+    width: auto;
+    height: 50px;
 }
 
 @media (max-width:991px) {
-    .logo img {
+    /* .logo img {
         width: 42%
-    }
+    } */
 }
 
 @media (max-width:680px) {
-    .logo img {
+    /* .logo img {
         width: 75%
-    }
+    } */
 }
 
 @media (max-width:420px) {
-    .logo img {
+    /* .logo img {
         width: 100%
-    }
+    } */
 }
 
 @media (max-width:991px) {
@@ -4845,7 +4869,7 @@ box-sizing: border-box;
 @media (max-width:991px) {
     .home-banner-area {
         background: #eaeaea;
-        padding: 172px 20px 100px
+        padding: 172px 0px 100px
     }
 
     .home-banner-area .no-js .owl-carousel,
@@ -4853,24 +4877,29 @@ box-sizing: border-box;
         display: none
     }
     .home-banner-area{
-        background-image: url(../img/xabout-img.jpg.pagespeed.ic.4Im0Afh-TO22.jpg);
-        color: white;
-        backgrou
+        background-image: url(../img/banner/xb1.jpg.pagespeed.ic.LKa0V00Psd.jpg);
+background-repeat: no-repeat !important;
+background-size: cover !important;
+       height: 80vh;
+       width: auto;
     }
     .text-wrapper h1{
-        color: white !important;
+        color: black !important;
     }
     .text-wrapper {
-        color: rgba(255, 255, 255, 0.753) !important;
+        color: rgba(255, 255, 255, 0.753) ;
     }
 
 }
-
+.home-banner-area{
+    display: flex;
+    align-items: center;
+}
 .home-banner-area .text-wrapper {
     width: 100%;
     position: absolute;
-    top: 50%;
     left: 50%;
+    top: 50%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -4878,12 +4907,18 @@ box-sizing: border-box;
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 2;
-    color: #fff
+    color: black
+}
+
+.text-wrapper{
+    background-color: rgba(255,255,255,0.7) !important;
+    color: black !important;
+    padding: 20px 0px 30px 0px;
 }
 
 @media (max-width:991px) {
     .home-banner-area .text-wrapper {
-        width: 80%;
+        width: 100%;
         margin: auto;
         color: #777;
         position: static;
@@ -4893,16 +4928,20 @@ box-sizing: border-box;
         -o-transform: translate(0%, 0%);
         transform: translate(0%, 0%)
     }
+    
 }
 
 @media (max-width:575px) {
     .home-banner-area .text-wrapper {
         width: 100%
     }
+    .home-banner-area{
+        background-position-x: -290px !important;
+    }
 }
 
 .home-banner-area .text-wrapper h1 {
-    color: #fff;
+    color: black;
     font-size: 60px
 }
 
@@ -4944,7 +4983,7 @@ box-sizing: border-box;
 }
 
 .banner-img .overlay-bg {
-    background: rgba(0, 0, 0, .3)
+    background: rgba(0, 0, 0, 0)
 }
 
 .banner-img:after,
@@ -4952,11 +4991,11 @@ box-sizing: border-box;
     content: '';
     position: absolute;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -51%);
+    -moz-transform: translate(-50%, -51%);
+    -ms-transform: translate(-50%, -51%);
+    -o-transform: translate(-50%, -51%);
+    transform: translate(-50%, -51%);
     z-index: 3;
     width: 0;
     height: 0;
