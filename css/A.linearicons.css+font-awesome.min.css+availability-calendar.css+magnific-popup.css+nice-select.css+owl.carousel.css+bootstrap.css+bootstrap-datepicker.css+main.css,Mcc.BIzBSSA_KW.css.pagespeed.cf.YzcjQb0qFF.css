@@ -5114,8 +5114,8 @@ background-size: cover !important;
 
 .about-area .single-about .bordered-img {
     position: absolute;
-    right: 0;
-    bottom: -70px;
+    right: 53px;
+    bottom: -55px;
     z-index: 5;
     border: 1px dashed #b89035;
     padding: 20px
