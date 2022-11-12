@@ -1748,6 +1748,13 @@ a.btn.disabled {
 .dropdown-toggle:empty::after {
     margin-left: 0
 }
+.dropdown-menu2 {
+    padding: 20px 0 15px 0;
+    margin-top: 15px;
+    box-sizing: border-box;
+    background: #f9f9f9 !important;
+    border-radius: 20px;
+}
 
 .dropdown-menu {
     position: absolute;
@@ -3065,6 +3072,7 @@ h6 {
     display: flex;
     justify-content: space-between;
     text-align: left;
+    padding: 10px;
 }
 
 .h1,
@@ -3198,13 +3206,20 @@ th {
         padding-top: 60px
     }
 }
-
+.price-btn{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.price-btn:hover{
+transform: scale(105%);
+}
 .video-play-button:before,
 .video-play-button:after,
 .testimonials-area .owl-thumb-item.active .overlay-grad,
 .testimonials-area .owl-thumb-item .overlay-grad:hover,
-.single-price:hover .end-sec .primary-btn.price-btn,
-.single-price.active .end-sec .primary-btn.price-btn,
+.single-price:hover .end-sec .primary-btn,
+.single-price.active .end-sec .primary-btn,
 .single-gallery .thumb .overlay-bg,
 .news-widget .input-group .sub-btn {
     background: -webkit-linear-gradient(90deg, #ba9236 0%, #fdc136 100%);
@@ -4727,18 +4742,24 @@ box-shadow: none;
     top: 0;
     box-shadow: -21.213px 21.213px 30px 0 rgba(158, 158, 158, .3)
 }
+.dropdown .dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible
+}
 
 @media (min-width:992px) {
-    .dropdown .dropdown-menu {
-        display: block;
-        opacity: 0;
-        visibility: hidden;
-        -webkit-transition: all 200ms ease-in;
-        -moz-transition: all 200ms ease-in;
-        -ms-transition: all 200ms ease-in;
-        -o-transition: all 200ms ease-in;
-        transition: all 200ms ease-in
-    }
+    
 
     .dropdown:hover .dropdown-menu {
         display: block;
@@ -4806,6 +4827,9 @@ box-shadow: none;
 @media (max-width:1199px) {
     .menu-right .nav-item .nav-link {
         margin-right: 16px
+    }
+    .price-btn{
+        padding:0 13px 0 13px !important;
     }
 }
 
@@ -5713,7 +5737,7 @@ line-height: 30px;
 .single-price .end-sec {
     margin-top: 30px
 }
-
+.dropdown-item
 .single-price .end-sec li {
     padding: 10px
 }
@@ -5731,10 +5755,10 @@ line-height: 30px;
     transition: all .4s ease 0s
 }
 
-.single-price:hover,
+/* .single-price:hover,
 .single-price.active {
     background: #222
-}
+} */
 
 .single-price:hover .top-sec h4,
 .single-price.active .top-sec h4 {
