@@ -4818,7 +4818,9 @@ box-shadow: none;
     font-weight: normal;
     padding: 37px 0
 }
-
+.txt2{
+    color: #ba9236 !important;
+    }
 .menu-right .nav-item .nav-link:hover,
 .menu-right .nav-item .nav-link.active {
     color: #ba9236
