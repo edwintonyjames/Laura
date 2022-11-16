@@ -4843,7 +4843,7 @@ border-radius: 2px;
     opacity: 0;
     right: 0;
     right: 0;
-    transform: translate(-77px,-5px);
+    transform: translate(-77px,32px);
     transition: all ease 400ms;
     font-size: .8em;
 }
@@ -4851,13 +4851,16 @@ border-radius: 2px;
     opacity: 0;
     right: 0;
     right: 0;
-    transform: translate(-77px,-74px);
+    transform: translate(-77px,-97px);
     transition: all ease 400ms;
     font-size: 1em;
 }
 .social-dropdown li a{
     font-size: 1rem;
     
+}
+.whatsli{
+    margin-bottom: 23px !important;
 }
 .social-dropdown li{
     
