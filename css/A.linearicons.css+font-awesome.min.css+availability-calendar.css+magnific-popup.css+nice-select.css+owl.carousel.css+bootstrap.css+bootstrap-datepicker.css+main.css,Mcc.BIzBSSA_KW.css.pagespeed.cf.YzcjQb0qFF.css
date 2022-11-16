@@ -4882,6 +4882,9 @@ border-radius: 2px;
             transition: .6s;
             box-shadow: 0 5px 4px rgba(0,0,0,.5);
         }
+        .social-menu ul li{
+            color: #d39c1b;
+        }
 @media (max-width:1199px) {
     .menu-right .nav-item .nav-link {
         margin-right: 16px
