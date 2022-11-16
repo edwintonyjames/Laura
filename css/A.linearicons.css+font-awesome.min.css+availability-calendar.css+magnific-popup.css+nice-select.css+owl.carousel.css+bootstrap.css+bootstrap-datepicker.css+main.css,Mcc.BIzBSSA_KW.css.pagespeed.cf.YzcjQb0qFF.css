@@ -4832,12 +4832,22 @@ height: 40px;
 padding: 20px;
 border-radius: 2px;
 }
-.whatsli:hover .social-dropdown{
+.whatsli:hover .social-dropdownw{
+    opacity: 1;
+}
+.phonli:hover .social-dropdownp{
     opacity: 1;
 }
 
-
-.social-menu .social-dropdown{
+.social-menu .social-dropdownp{
+    opacity: 0;
+    right: 0;
+    right: 0;
+    transform: translate(-77px,-5px);
+    transition: all ease 400ms;
+    font-size: .8em;
+}
+.social-menu .social-dropdownw{
     opacity: 0;
     right: 0;
     right: 0;
@@ -4884,6 +4894,7 @@ border-radius: 2px;
         }
         .social-menu ul li{
             color: #d39c1b;
+            cursor: pointer;
         }
 @media (max-width:1199px) {
     .menu-right .nav-item .nav-link {
