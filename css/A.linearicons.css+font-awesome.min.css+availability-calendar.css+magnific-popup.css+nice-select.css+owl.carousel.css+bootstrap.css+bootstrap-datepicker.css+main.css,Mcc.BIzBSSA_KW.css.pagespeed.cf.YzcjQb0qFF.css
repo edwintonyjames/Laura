@@ -5070,8 +5070,10 @@ background-size: cover !important;
 
 @media (max-width:575px) {
     .home-banner-area .text-wrapper h1 {
-        font-size: 32px
+        font-size: 32px;
+        margin: 0 10px 0 10px;
     }
+    
 }
 
 .home-banner-area .text-wrapper p {
